@@ -30,18 +30,23 @@ hs.src = ('//s10.histats.com/js15_as.js');
   <div id="movie-grid" class="movie-grid">
     <!-- Card film diisi lewat JavaScript -->
   </div>
-  <input 
+ <input 
   type="text" 
   id="search" 
   placeholder="Search movie title..."
+  onclick="redirectAd()"
 />
 
 <script>
-  const adLink = "https://www.effectivecpmrate.com/efne4212zv?key=bc65671110665da5220688ea168ed7cc"; // ganti dengan link Adsterra kamu
-  document.getElementById("search").addEventListener("focus", function() {
-    window.location.href = adLink;
-  });
+  function redirectAd() {
+    // ganti link ini dengan link direct / adsterra kamu
+    window.location.href = "https://www.effectivecpmrate.com/efne4212zv?key=bc65671110665da5220688ea168ed7cc";  
+  }
 </script>
+
+/>
+
+
 
 
   <!-- Pagination -->
